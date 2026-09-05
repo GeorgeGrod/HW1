@@ -19,7 +19,7 @@ function getCurrentDate() {
 function isWeekend() {
     const day = moment().day(); 
 
-    if (day === 6 || day === 7) {
+    if (day == 7 || day == 6) {
         console.log("Сегодня выходной");
     } else {
         console.log("Сегодня рабочий день");
